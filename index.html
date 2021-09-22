@@ -5,60 +5,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sisteling Sistemas Inteligentes</title>
-   <link rel="stylesheet" href="estilos.css">
-   <link rel="stylesheet" href="<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" 
-   integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
 </head>
 
     <body>
    
-        <header class="header-section">
-            <div class="header-container">
+        <header>
+            <div class="container">
 
-                <div class="logo-container">
-                    <img class="logo-container__site-logo" src="images/logo.png" >
-                    <div><h1>SisteLing</h1></div>
-                </div>
+                <div class="menu-container">
 
-                <div class="site-menu">
-                    <nav>
-                         <ul class="site-nav">
-                            
-                            <nav id="menu">
-                                <ul>
-                                    <li><a href="empresa.html">Empresa</a></li>
-                                    <li><a href="#servicios">Servicios</a>
-
-                                        <ul>
-                                            <li><a href="redes.html">Redes inalambricas</a></li>
-                                            <li><a href="seguridad.html">Seguridad Electronica</a></li>
-                                            <li><a href="domotica.html">Domotica</a></li>
-                                        </ul>
-                                    </li>   
-                                    <li><a href="contactos.html">Contactenos</a></li>
-                                </ul> 
-                            </nav>
-                            
-                        </ul>
-                    </nav>
-                
+                    <div class="logo-container">
+                        <img class="logo" src="images/logo.png">
+                        <h2>SisteLing</h2>
                     </div>
+                    <h1>SisteLing</h1>
+                    <div>
+                        <nav id="menu">
+                            <ul>
+                                <li><a href="empresa.html">Empresa</a></li>
+                                <li>
+                                    <a href="#servicios">Servicios</a>
+
+                                    <ul>
+                                        <li><a href="redes.html">Redes inalambricas</a></li>
+                                        <li><a href="seguridad.html">Seguridad Electronica</a></li>
+                                        <li><a href="domotica.html">Domotica</a></li>
+                                    </ul>
+                                </li> 
+
+                                <li><a href="contactos.html">Contactenos</a></li>
+                            </ul> 
+                        </nav>
+                            
+                   </div>
 
             </div>
        
-           
+        </header>
  
      
             <div class="banner">
-                <img src="images/banner.png" alt="A banner image">
+                <img src="images/banner.png" alt="Sisteling" width="1280" height="500" >
             </div>
 
-        </header>
+       
 
        
         <div class="servicios">
-             <h2>Soluciones Inteligentes</h2>
+             <h1>Soluciones Inteligentes</h1>
         </div>
 
         <section id="servicios" class="services-section">
@@ -66,7 +63,7 @@
            
           
             <article class="services-info">
-                    <img class="services-info__imagen" src="images/redes.png" alt="Redes Inalambricas">
+                    <a href="redes.html"><img class="services-info__imagen" src="images/redes.png" alt="Redes Inalambricas"></a>
                     <h2 class="services-info__title">Redes Inalambricas</h2>
                     <p class="services-info__text">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quas voluptate magni repellat eligendi! Inventore voluptas
@@ -75,7 +72,7 @@
             </article>
 
             <article class="services-info">
-                <img class="services-info__imagen" src="images/camaras.jpg" alt="Seguridad Electronica">
+                <a href="seguridad.html"><img class="services-info__imagen"  href="seguridad.html"src="images/camaras.jpg" alt="Seguridad Electronica"></a>
                 <h2 class="services-info__title">Seguridad Electronica</h2>
                 <p class="services-info__text">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quas voluptate magni repellat eligendi! Inventore voluptas
@@ -84,7 +81,7 @@
             </article>
 
             <article class="services-info">
-                <img class="services-info__imagen" src="Images/domotica.jpg" alt="Domotica">
+                <a href="domotica.html"><img class="services-info__imagen"  href="domotica.html"src="Images/domotica.jpg" alt="Domotica"></a>
                 <h2 class="services-info__title">Domotica</h2>
                 <p class="services-info__text">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quas voluptate magni repellat eligendi! Inventore voluptas
@@ -95,7 +92,7 @@
         </section>
        
 
-    <footer id="contacto"class="footer-section">
+    <footer id="contacto"class="footer">
         <article>
            <p>Copyright © 2021 SisteLing- soluciones inteligentes Todos los derechos reservados.</p>
         </article> 
