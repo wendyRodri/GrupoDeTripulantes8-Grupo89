@@ -8,7 +8,11 @@
             src="../assets/logo.png"
             alt="Ecommerce"
           />
-          <p>Categorías...</p>
+          <template v-for="category in categories" :key="category.id">
+            <router-link class="item" :to="category.slug">
+              {{ category.title }}
+            </router-link>
+          </template>
         </router-link>
       </div>
       <div class="right menu">
@@ -31,12 +35,21 @@
 </template>
 
 <script>
+import { ref, onMounted } from 'vue';
 import { getTokenApi, deleteTokenApi } from '../api/token';
+import { getCategoriesApi } from '../api/category';
 
 export default {
   name: 'Menu',
 
   setup() {
+    let categories = ref(null);
+
+    onMounted(async () => {
+      const response = await getCategoriesApi();
+      categories.value = response;
+    });
+
     const token = getTokenApi();
 
     const logout = () => {
@@ -46,6 +59,7 @@ export default {
     return {
       token,
       logout,
+      categories,
     };
   },
 };
@@ -63,7 +77,7 @@ export default {
   .menu.left {
     width: 50%;
     .ui.image {
-      width: 70px;
+      width: 120px;
     }
   }
   .menu.right {
