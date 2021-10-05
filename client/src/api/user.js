@@ -18,6 +18,10 @@ export async function registerApi(formData) {
       return null;
     }
   }
+
+
+
+  
   export async function loginApi(formData) {
     try {
       const url = `${API_URL}/auth/local`;

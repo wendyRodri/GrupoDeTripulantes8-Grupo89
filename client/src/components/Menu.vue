@@ -8,12 +8,12 @@
             src="../assets/logo.png"
             alt="Ecommerce"
           />
-          <template v-for="category in categories" :key="category.id">
-            <router-link class="item" :to="category.slug">
-              {{ category.title }}
-            </router-link>
-          </template>
         </router-link>
+        <template v-for="category in categories" :key="category.id">
+          <router-link class="item" :to="category.slug">
+            {{ category.title }}
+          </router-link>
+        </template>
       </div>
       <div class="right menu">
         <router-link class="item" to="/login" v-if="!token">
@@ -67,7 +67,7 @@ export default {
 
 <style lang="scss" scoped>
 .ui.menu.secondary {
-  background-color: #16202b;
+  background: #1fa1f1;
   .item {
     color: #ffffff;
     &:hover {
