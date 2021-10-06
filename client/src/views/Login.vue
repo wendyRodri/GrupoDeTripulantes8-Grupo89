@@ -94,6 +94,38 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+
+
+.ui.menu.secondary {
+  background: #0995d6;
+ 
+  .item {
+    color: #ffffff;
+    &:hover {
+      color: #1fa1f1;
+    }
+  }
+  .menu.left {
+    width: 50%;
+    .ui.image {
+      width: 120px;
+       
+    }
+  }
+  .menu.right {
+    
+    width: 50%;
+    justify-content: flex-end;
+    .logout,
+    .cart {
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
 .login {
   text-align: center;
   > h2 {

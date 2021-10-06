@@ -1,7 +1,7 @@
 <template>
   <div class="basic-layout">
-      <Menu />
-      <div class="ui container">
+      <Menu/>
+  <div >
           <slot />
       </div>
   </div>
