@@ -52,7 +52,7 @@
                 <div class="menu-container">
 
                     <div class="logo-container">
-                        <img class="logo" src="../assets/sistema/logo.png">
+                        <img class="logo" src="../assets/logo.png">
                         <h2>SisteLing</h2>
                     </div>
                         <h1>SisteLing</h1>

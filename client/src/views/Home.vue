@@ -5,7 +5,7 @@
 
   
             <div class="banner">
-                <img src="../assets/sistema/banner.png" alt="Sisteling" width="1280" height="500" >
+                <img src="../assets/banner.png" alt="Sisteling" width="1280" height="500" >
             </div>
 
        
@@ -20,7 +20,7 @@
            
           
             <article >
-                <a href="redes.html"><img  src="../assets/antenas/redes.png"  alt="Redes Inalambricas"></a>
+                <a href="redes.html"><img  src="../assets/redes.png"  alt="Redes Inalambricas"></a>
                     <h2 >Redes Inalambricas</h2>
                     <p >
                         Conectamos datos y video a largas distancias a través de redes inalámbricas usando tecnologías microondas
@@ -28,7 +28,7 @@
             </article>
 
             <article >
-                <a href="seguridad.html"><img  src="../assets/camaras/camaras.jpg" alt="Seguridad Electronica"></a>
+                <a href="seguridad.html"><img  src="../assets/camaras.jpg" alt="Seguridad Electronica"></a>
                 <h2 >Seguridad Electronica</h2>
                 <p >
                     Ofrecemos un sistema completo de seguridad electrónica para vigilar su negocio y hogar.
@@ -36,7 +36,7 @@
             </article>
 
             <article >
-                <a href="domotica.html"><img  src="../assets/domotica/domotica1.jpg" alt="Domotica"></a>
+                <a href="domotica.html"><img  src="../assets/domotica1.jpg" alt="Domotica"></a>
                 <h2 >Domotica</h2>
                 <p >
                     Diseñamos su casa inteligente con la mas avanzada tecnología de control e iluminación.
